@@ -1,0 +1,7 @@
+Project title – Bike and car classification
+                                         In this project, we are trying to classify the images of cars and bikes. Which can be as dataset of images of those. We need to split or make a classification of the cars and bikes based on the convolutional neural approach. The model extracts the features from images and learns the pattern that we can distinguish in the car and bike. The convolutional neural network consists of the convolutional, 1 Max-Pooling, dropout layer, and fully connected layers.
+Input and output – 
+                                      Here the input is used as the images of the cars and bikes, and as output, we will get a prediction probability for each class. We can finally convert it as predicted_class = 0, car, and predicted_class =1, bike. Etc. Which can depend on the highest probabilities.
+Dataset chosen for working - https://www.kaggle.com/datasets/utkarshsaxenadn/car-vs-bike-classification-dataset.
+Reason for choosing this dataset – 
+                                                              Here, we are using a strategy that may be like MINST. Here, we are using cars and bikes, which have distinct features as they have distinct shapes, textures, and structures. We intuited to find out whether model can differentiate this or not. To do all this, we use the conv2D to detect the differences. It recognize the images of the car and bikes as human can recognize.
